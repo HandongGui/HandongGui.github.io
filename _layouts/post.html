@@ -4,6 +4,7 @@ layout: default
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
+<!-- password check-->
 
 
 <!-- Post Header -->
@@ -171,6 +172,18 @@ layout: default
     </div>
 </article>
 
+{% if page.password %}
+<script type="text/javascript">   
+    loopy()   
+    function loopy() {   
+    var sWord =""  
+    while (sWord != "123") {//初始密码123   
+    sWord = prompt("输入正确密码才能登陆!")   
+    }   
+    alert("AH…欢迎光临！")   
+    }   
+    </script>  
+{% endif %}
 
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
