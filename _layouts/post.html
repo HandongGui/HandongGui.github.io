@@ -11,7 +11,7 @@ layout: default
     function password() {   
     var testV = 1;   
     var pass1 = prompt('请输入密码浏览该内容','');
-    if (pass1==null)   
+    if (!pass1)   
     location.href="http://handonggui.github.io/";     
     while (testV < 3) {  
     if (pass1 == "123") {//初始密码123   
@@ -22,7 +22,7 @@ layout: default
     var pass1 =   
     prompt('密码错误!请重新输入:');   
     }   
-    if (pass1!="password" & testV ==3)   
+    if (pass1!="123" & testV ==3)   
     location.href="http://handonggui.github.io/";   
     return " ";   
     }   
