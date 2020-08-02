@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -7,14 +8,25 @@ layout: default
 <!-- password check-->
 {% if page.password %}
 <script type="text/javascript">   
-    loopy()   
-    function loopy() {   
-    var sWord =""  
-    while (sWord != "123") {//初始密码123   
-    sWord = prompt("输入正确密码才能查看相关内容!")   
+    function password() {   
+    var testV = 1;   
+    var pass1 = prompt('请输入密码浏览该内容','');   
+    while (testV < 3) {   
+    if (pass1==null)   
+    history.go(-1);   
+    if (pass1 == "123") {//初始密码123   
+    alert('密码正确!');   
+    break;   
     }   
-    //alert("AH…欢迎光临！")   
+    testV+=1;   
+    var pass1 =   
+    prompt('密码错误!请重新输入:');   
     }   
+    if (pass1!="password" & testV ==3)   
+    history.go(-1);   
+    return " ";   
+    }   
+    document.write(password());   
     </script>  
 {% endif %}
 
