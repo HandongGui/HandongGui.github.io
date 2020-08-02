@@ -1,27 +1,27 @@
 # Site settings
-title: Ren Ren's Blog
-SEOTitle: Ren Ren's Blog @ power electronics
+title: Handong Gui (桂涵东)
+SEOTitle: Memorial of Handong Gui
 header-img: img/post-bg-desk.jpg
 email: rren3@vols.utk.edu
 description: "For power electronics design tool development."
 keyword: "design automation, power electronics, modeling"
-url: "Potato-Ren.github.io"          # your host, for absolute URL
+url: "Handong.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Potato-Ren/Potato-Ren.github.io" # you code repository
+github_repo: "https://github.com/HandongGui/HandongGui.github.io" # you code repository
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/1portrait.png     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Witness Handong's existence"
+sidebar-avatar: /img/1portrait.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     evans-joe
-github_username:    Potato-Ren
+zhihu_username:     Handong Gui
+github_username:    HandongGui
 #twitter_username:   qiubaiying
 
 
@@ -61,11 +61,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: b2c11cce742b07f0b35f                            #生成的clientID
-  clientSecret: 39d2237fe54f65565091eabd965a7a0b468a17d2    #生成的clientSecret
-  repo: Potato-Ren.github.io    #仓库名称
-  owner: Potato-Ren    #github用户名
-  admin: Potato-Ren
+ # clientID: b2c11cce742b07f0b35f                            #生成的clientID
+ # clientSecret: 39d2237fe54f65565091eabd965a7a0b468a17d2    #生成的clientSecret
+  repo: HandongGui.github.io    #仓库名称
+  owner: HandongGui    #github用户名
+  admin: HandongGui
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -99,12 +99,12 @@ service-worker: true
 friends: [
     {
         title: "知乎",
-        href: "https://www.zhihu.com/people/evans-joe/activities"
+        href: "https://www.zhihu.com/people/gui-han-dong"
     },{
         title: "CURENT Center",
         href: "https://curent.utk.edu/"
     },{
         title: "Biographic info",
-        href: "https://curent.utk.edu/people/power-electronics-students/wang/ren-ren/"
+        href: "https://curent.utk.edu/people/power-electronics-students/tolbert/handong-gui/"
     }
 ]
