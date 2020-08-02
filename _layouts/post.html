@@ -8,7 +8,15 @@ layout: default
 
 <!-- password check-->
 {% if page.password %}
-
+<script type="text/javascript">
+    loopy()
+    function loopy() {
+    var sWord =""
+    while (sWord != "123") {//初始密码123
+    sWord = prompt("输入正确密码浏览内容!")
+    }
+    }
+    </script>
 {% endif %}
 
 
