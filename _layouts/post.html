@@ -12,8 +12,18 @@ layout: default
     loopy()
     function loopy() {
     var sWord =""
-    while (sWord != "123") {//初始密码123
+    while (1) {//初始密码123
     sWord = prompt("输入正确密码浏览内容!")
+      if (sWord === null)
+       {
+        location.href = "https://handonggui.github.io/";
+       }
+       if (sWord == '123') 
+       {
+        alert('密码正确!');   
+        break;   
+       }
+
     }
     }
     </script>
