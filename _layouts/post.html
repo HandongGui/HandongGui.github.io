@@ -13,7 +13,7 @@ layout: default
     var pass1 = prompt('请输入密码浏览该内容','');   
     while (testV < 3) {   
     if (pass1==null)   
-    history.go(-1);   
+    location.href="http://handonggui.github.io/";   
     if (pass1 == "123") {//初始密码123   
     alert('密码正确!');   
     break;   
@@ -23,7 +23,7 @@ layout: default
     prompt('密码错误!请重新输入:');   
     }   
     if (pass1!="password" & testV ==3)   
-    history.go(-1);   
+    location.href="http://handonggui.github.io/";   
     return " ";   
     }   
     document.write(password());   
