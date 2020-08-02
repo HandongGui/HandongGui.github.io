@@ -1,3 +1,6 @@
+
+<!-- password check-->
+{% if page.password %}
 <script type="text/javascript">   
     loopy()   
     function loopy() {   
@@ -8,6 +11,8 @@
     alert("AH…欢迎光临！")   
     }   
     </script>  
+{% endif %}
+
 ---
 layout: default
 ---
@@ -15,10 +20,6 @@ layout: default
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
 
-<!-- password check-->
-{% if page.password %}
-
-{% endif %}
 
 
 <!-- Post Header -->
