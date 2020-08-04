@@ -209,7 +209,7 @@ Requiescat In Pace Frater Meus.
 ---
 
 #### ---- by 郭哲辉
->...愿你成为自己的太阳...
+>愿你成为自己的太阳
 R.I.P
 ---
 
