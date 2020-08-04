@@ -98,8 +98,8 @@ R.I.P
 这样的结果让人太难接受，我知道2020不能重来，希望在天堂的你得到安息，并依然是最有追求，最耀眼的那个。
 R.I.P
 <figure class="half">
-    <img src="../../../../img/HDG/ren1.jpg" width="300"/>
-    <img src="../../../../img/HDG/ren3.jpg" width="300"/>
+    <img src="../../../../img/HDG/ren1.jpg" width="500"/>
+    <img src="../../../../img/HDG/ren3.jpg" width="500"/>
 </figure>
 #### ---- by 任仁
 ---
