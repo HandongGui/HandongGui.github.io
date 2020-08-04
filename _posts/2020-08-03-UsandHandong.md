@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Handong and Us-涵东与我们
-subtitle:   In Memory of Our Friend-纪念我们共同的朋友
+title:      涵东与我们 (Handong and Us)
+subtitle:   纪念我们共同的朋友-In Memory of Our Friend
 date:       2020-08-03
 author:     Yang Huang, Ren Ren
 header-img: img/post-bg-github-cup.jpg
