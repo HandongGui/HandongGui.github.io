@@ -24,11 +24,11 @@ tags:
 <table>
     <tr>
         <td ><center><img src="../../../../img/moment/Study/在南航_录音中.JPG" width="300"/> 南航_录音中 </center></td>
-        <td ><center><img src="../../../../img/moment/Study/2013_IFEC2.JPG" width="300"/> 2013_IFEC </center></td>
+        <td ><center><img src="../../../../img/moment/Study/2013_IFEC2.JPG" width="300"/> 2013_IFEC2 </center></td>
     </tr>
     <tr>
-        <td ><center><img src="../../../../img/moment/Study/2013_IFEC3.JPG" width="300"/> 2013_IFEC </center></td>
-        <td ><center><img src="../../../../img/moment/Study/2013_IFEC4.JPG" width="300"/> 2013_IFEC </center></td>
+        <td ><center><img src="../../../../img/moment/Study/2013_IFEC3.JPG" width="300"/> 2013_IFEC3 </center></td>
+        <td ><center><img src="../../../../img/moment/Study/2013_IFEC4.JPG" width="300"/> 2013_IFEC4 </center></td>
     </tr>
 	<tr>
         <td ><center><img src="../../../../img/moment/Study/2016_0909_UTK_MK428.jpeg" width="300"/> 2016_0909_UTK MK428办公室</center></td>
@@ -88,7 +88,7 @@ tags:
 <table>
     <tr>
         <td ><center><img src="../../../../img/moment/Study/2019_0322_LA.jpeg" width="300"/> 2019_0322_LA </center></td>
-        <td ><center><img src="../../../../img/moment/Study/2019_0322_LA_2.jpeg" width="300"/> 2019_0322_LA </center></td>
+        <td ><center><img src="../../../../img/moment/Study/2019_0322_LA_2.jpeg" width="300"/> 2019_0322_LA_2 </center></td>
     </tr>
 </table>
 
@@ -96,8 +96,6 @@ tags:
 	 <tr>      
         <td ><center><img src="../../../../img/moment/Study/2019_Alumni Pannel.JPG"> 2019_Alumni Pannel </center></td>
     </tr>
-</table>
-	
 <table>
 	<tr>      
         <td ><center><img src="../../../../img/moment/Study/2019_ECCE_CURENT.JPG"> 2019_ECCE_CURENT </center></td>
@@ -316,7 +314,7 @@ tags:
 
 <table>	
 	<tr>      
-		<td ><center><img src="../../../../img/moment/Food/2018_Portland_早茶店.JPG" width="300"/> 2018_Portland_早茶店 </center></td>
+		<td ><center><img src="../../../../img/moment/Food/2018_Portland_早茶店.JPG" width="300"/> 2018_Portland_早茶店.JPG </center></td>
 		<td ><center><img src="../../../../img/moment/Food/2018_Portland_早茶尝尝.JPG" width="300"/> 2018_Portland_早茶尝尝 </center></td>
     </tr>
 	<tr>      
