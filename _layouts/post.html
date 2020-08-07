@@ -25,10 +25,12 @@ layout: default
     passWord()   
     function passWord() {
         var testV = 1;
-        var pass1 = prompt('请输入密码浏览内容',' ');
+        var pass1 = prompt('请输入密码浏览内容，点击取消返回',' ');
         while (testV < 3) {
-        if (!pass1) 
+        if (!pass1) {
         history.go(-1);
+        return " ";
+        }
         if (pass1 == "19901112") {
         break;
         } 
