@@ -6,6 +6,7 @@ layout: default
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
 
 <!-- password check-->
+<!--  
 {% if page.password %}
 <script type="text/javascript">   
     loopy()   
@@ -16,6 +17,28 @@ layout: default
     }   
    // alert("AH…欢迎光临！")   
     }   
+    </script>  
+{% endif %}
+-->
+{% if page.password %}
+<script type="text/javascript">   
+    passWord()   
+    function passWord() {
+        var testV = 1;
+        var pass1 = prompt('请输入密码浏览内容',' ');
+        while (testV < 3) {
+        if (!pass1) 
+        history.go(-1);
+        if (pass1 == "19901112") {
+        break;
+        } 
+        testV+=1;
+        pass1 = prompt('密码不正确请重新输入','');
+        }
+        if (pass1 !="19901112" & testV ==3) 
+        history.go(-1);
+        return " ";
+        }  
     </script>  
 {% endif %}
 
